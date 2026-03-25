@@ -8,7 +8,7 @@ import blooket_api
 from web import app
 
 # ----- Configuration -----
-TOKEN = os.environ.get("TELEGRAM_TOKEN")
+TOKEN = os.environ.get("8569463727:AAGs52-W5vrypH9eZAMYdOlVk4jTIgd5o9k")
 if not TOKEN:
     raise ValueError("No TELEGRAM_TOKEN environment variable set")
 
